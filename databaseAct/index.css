@@ -1,0 +1,206 @@
+body{
+    background-image: linear-gradient(270deg,#cfc9c9,#201e1e);
+    height: 1900px;
+    max-width: 500px;
+    overflow-x: hidden;
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+
+#searchbar{
+    line-height: 35px;
+}
+#carhomepage{
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    min-width: 500px;
+    min-height: 400px;
+}
+
+#carshadowhomepage{
+    position: absolute;
+    z-index: -1;
+    top: 240px;
+    left: 70px;
+    min-width: 500px;
+    min-height: 380px;
+}
+
+.homepage_wew p{
+    position: relative;
+    left: 950px;
+    top: 50px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+header li, header li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+}
+
+header ul{
+    list-style: none;
+
+}
+header input{
+    width: 470px;
+}
+header img{
+    max-height: 70px;
+    max-width: 70px;
+}
+header ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+header ul li a:hover{
+    color: #056302;
+    font-size: 25px;
+    transition: 0.3s;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    width: 100vw;
+    transition: 0.3s;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+}
+
+.sticky{
+    background-color: #131212;
+    width: 100vw;
+    transition: 0.3s;
+    height: 60px;
+}
+.sticky ul li a{
+    color: #FFF;
+}
+.sticky #searchbar{
+    height: 30px;
+}
+.sec-2{
+    background-color: #151414;
+    width: 1500px;
+    height: 600px;
+    position: relative;
+    top: 150px;
+    padding: 50px;
+}
+#ho{
+    color: #F59D18;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.hio{
+    color: #FF3838;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.ule{
+    display: flex;
+}
+.white3{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+.sec-2 b{
+    font-size: 50px;
+}
+.orange3{
+    color: #FC6511;
+    font-family: 'Montserrat', sans-serif;
+}
+.sec-2 ul li{
+    font-family: 'Montserrat', sans-serif;
+    color: #9F9898;
+}
+.redcar{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    min-height: 1000px;
+    z-index: 30;
+}
+
+.sec-3 p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+    top: 150px;
+    color: aliceblue;
+    left: 600px;
+}
+
+.sec-3 img{
+    position: relative;
+    top: 150px;
+    left: 200px;
+}
+
+.sec-4{
+    background-color: #151414;
+    height: 100px;
+    width: 100vw;
+    position: relative;
+    top: 300px;
+}
+
+
+
+#qwe{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    width: 800px;
+    height: 400px;
+}
+
+.sec-2 #white{
+    min-width: 250px;
+    min-height: 250px;
+    position: relative;
+    left: 70px;
+    top: 100px;
+    z-index: 3;
+}
+
+.sec-2 #car{
+    position: relative;
+    left: -70px;
+    top: -250px;
+    z-index: 4;
+    max-width: 800px;
+    max-height: 800px;
+}
+
+.sec-2-mid{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+
+.sec-2-mid-left{
+    max-width: 600px;
+}
+
+.sec-2 #right{
+    position: relative;
+    top: -120px;
+    left: 550px;
+}
