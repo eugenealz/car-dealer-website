@@ -1,2 +1,3 @@
 # car-dealer-website
-car store blah blah
+
+Ilagay niyo nalang duon sa folder mga ginawa niyo.
